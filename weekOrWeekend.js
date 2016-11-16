@@ -12,7 +12,7 @@ var weekOrWeekend = function(day){
       return "week";
   }
 };
-
+// defining my assert values
 assert.equal(weekOrWeekend('Wednesday'), 'week');
 assert.equal(weekOrWeekend('Sunday'), 'weekend');
 assert.equal(weekOrWeekend('Monday'), 'week');
